@@ -1,0 +1,12 @@
+﻿@model IndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>Database query:</h2>
+    <pre>@Model.SqlQuery</pre>
+    <h2>Database query results:</h2>
+    <pre>@Model.SqlQueryResult</pre> 
+</div>
